@@ -1,0 +1,39 @@
+# Node dependencies (will be installed in container)
+node_modules
+
+# TypeScript build output
+dist
+
+# Environment files (never copy secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode
+.idea
+
+# Git
+.git
+.gitignore
+
+# Docker
+docker-compose*.yml
+
+# Tests (optional)
+coverage
+*.test.ts
+*.spec.ts
+
+# Cache
+*.tsbuildinfo

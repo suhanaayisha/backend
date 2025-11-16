@@ -1,0 +1,30 @@
+	•	GET /api/name
+	•	Dockerfile
+	•	Jenkinsfile
+	•	Deployment instructions
+	•	Nginx reverse proxy
+
+
+Backend
+	•	Build Express API
+	•	Add Dockerfile
+	•	Push to Git
+	•	Jenkins pipeline → builds + pushes Docker image
+	•	Deploy on VM
+	•	Nginx + HTTPS at api.yourdomain.com
+
+Frontend (Next.js)
+	•	Create Next.js app
+	•	Implement “Welcome” UI
+	•	Fetch backend API
+	•	Add Dockerfile
+	•	Jenkins pipeline
+	•	Deploy to VM
+	•	Nginx + HTTPS at yourdomain.com
+
+Mobile
+	•	Build React Native app
+	•	Hit backend API
+	•	Build release versions (.aab / .ipa)
+	•	Publish to Play Store + App Store
+////
