@@ -10,7 +10,7 @@ Backend
 	•	Add Dockerfile
 	•	Push to Git
 	•	Jenkins pipeline → builds + pushes Docker image
-	•	Deploy on VM
+	•	Deploy on VM -> here now
 	•	Nginx + HTTPS at api.yourdomain.com
 
 Frontend (Next.js)
